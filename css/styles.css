@@ -210,7 +210,6 @@ section{
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    padding-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -253,10 +252,7 @@ section{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-top: 120px;
     margin-bottom: 72px;
-    margin-left: 639px;
-    margin-right: 639px;
 }
 
 .hero-list {
@@ -307,9 +303,6 @@ section{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-top: 120px;
-    margin-left: 611px;
-    margin-right: 611px;
     margin-bottom: 72px;
 }
 
@@ -318,10 +311,6 @@ section{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-right: 156px;
-    margin-bottom: 120px;
-    margin-left: 156px;
-    
 }
 
 .portfolio-item {
