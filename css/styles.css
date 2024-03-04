@@ -62,7 +62,6 @@ section{
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .page-link {
@@ -334,14 +333,14 @@ section{
 /* <!-- Footer --> */
 .come {
     background: #2e2f42;
-    gap: 0px;
+    width: 1440px;
+    height: 312px;
     padding: 100px 0;
-    
 }
 
 .logo {
     color: #f4f4fd;
-    margin-bottom: 16px;
+    display: inline-block;
 }
 .come-text {
     font-weight: 400;
@@ -349,4 +348,5 @@ section{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-top: 16px;
 }
