@@ -340,14 +340,18 @@ section{
     gap: 0px;
     padding: 100px 0;
 }
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
 .logo {
     color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
     display: inline-block;
+    margin-bottom: 16px;
 }
 .come-text {
     font-weight: 400;
@@ -355,5 +359,6 @@ section{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    margin-bottom: 100px;
+    margin-right: 1020px;
 }
