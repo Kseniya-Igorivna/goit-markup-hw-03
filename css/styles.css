@@ -194,7 +194,7 @@ section{
 }
 
 .description-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .description-suptitle {
@@ -243,8 +243,8 @@ section{
 }
 
 .hero-item {
+    width: calc((100% - 72px) / 4);
     background: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
@@ -333,6 +333,7 @@ section{
     
 }
 .logo {
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -340,7 +341,6 @@ section{
     text-transform: uppercase;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    display: inline-block;
 }
 .come-text {
     font-weight: 400;
