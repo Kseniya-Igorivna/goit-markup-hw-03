@@ -191,6 +191,8 @@ section{
 .description-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .description-item {
@@ -239,6 +241,8 @@ section{
     flex-direction: row;
     align-items: center;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 
 }
 
@@ -287,6 +291,8 @@ section{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .portfolio-item {
@@ -331,6 +337,9 @@ section{
     gap: 0px;
     padding: 100px 0;
     
+}
+a {
+    display: inline-block;
 }
 .logo {
     display: inline-block;
