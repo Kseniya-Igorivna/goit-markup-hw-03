@@ -58,7 +58,6 @@ section{
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .page-link {
@@ -338,18 +337,10 @@ section{
     padding: 100px 0;
     
 }
-a {
-    display: inline-block;
-}
+
 .logo {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
+    display: inline-block;
 }
 .come-text {
     font-weight: 400;
