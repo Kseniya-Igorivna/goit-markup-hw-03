@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     min-height: 100vh;
@@ -344,7 +343,6 @@ section{
 
 .logo {
     color: #f4f4fd;
-    display: inline-block;
 }
 .come-text {
     font-weight: 400;
@@ -356,4 +354,7 @@ section{
     margin-bottom: 100px;
     margin-right: 1020px;
     
+}
+.logo{
+    display: inline-block;
 }
