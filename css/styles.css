@@ -34,6 +34,7 @@ section{
     align-items: baseline;
 }
 .container {
+    display: flex;
     max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -342,6 +343,8 @@ section{
 
 .logo {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .come-text {
     font-weight: 400;
@@ -349,11 +352,6 @@ section{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
-    margin-bottom: 100px;
-    margin-right: 1020px;
-    
-}
-.logo{
     display: inline-block;
+    max-width: 264px
 }
