@@ -76,8 +76,7 @@ style {
     text-transform: uppercase;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    display: inline-block;
-    margin-right: -4px;
+    
 }
 
 .page-link {
@@ -406,3 +405,6 @@ style {
     margin-right: 1020px;
 }
 
+.come .plan-name{
+    display: inline-block;
+}
