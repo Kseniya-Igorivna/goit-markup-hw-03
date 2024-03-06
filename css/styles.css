@@ -77,6 +77,7 @@ style {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     display: inline-block;
+    margin-right: -4px;
 }
 
 .page-link {
