@@ -64,7 +64,6 @@ section {
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo {
@@ -75,7 +74,7 @@ section {
     text-transform: uppercase;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    
+    margin-bottom: 16px;
 }
 
 .page-link {
