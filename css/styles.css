@@ -12,13 +12,26 @@ main {
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 ul {
     list-style: none;
-
 }
-h1, h2, h3{
-    max-width: 496px;
+.style{
+    font-style: normal;
+    margin-left: auto;
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+address {
+    font-style: normal;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -51,9 +64,6 @@ style {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .plan-name {
@@ -65,7 +75,6 @@ style {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     margin-right: 76px;
-    margin-bottom: 16px;
 }
 
 .logo {
@@ -87,8 +96,6 @@ style {
     text-transform: uppercase;
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-list {
@@ -99,7 +106,7 @@ style {
     padding-top: 24px;
     padding-bottom: 24px;
     color: #2e2f42;
-
+    display: block;
 }
 
 .page-ul-nav {
@@ -146,7 +153,6 @@ style {
 .page-add {
     display: flex;
     flex-direction: row;
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -163,15 +169,15 @@ style {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-left: 472px;
-    margin-top: 188px;
-    margin-right: 472px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+    margin-bottom: 48px;
 }
 
 .service-btn {
     cursor: pointer;
     background: #4d5ae5;
-    justify-content: flex-start;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -179,15 +185,13 @@ style {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     display: block;
-    align-items: flex-start;
-    flex-direction: row;
-    gap: 10px;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
     border: none;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service-btn:hover {
@@ -228,12 +232,6 @@ style {
 
 .description-item {
     justify-content: flex-start;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    padding-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -263,11 +261,6 @@ style {
 }
 
 .con-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -280,10 +273,7 @@ style {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-top: 120px;
     margin-bottom: 72px;
-    margin-left: 639px;
-    margin-right: 639px;
 }
 
 .hero-list {
@@ -297,11 +287,6 @@ style {
 
 .hero-item {
     background: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
 }
@@ -337,6 +322,7 @@ style {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
+    
 }
 
 .portfolio-list {
@@ -354,11 +340,6 @@ style {
 }
 
 .con-portfolio {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -386,11 +367,6 @@ style {
 /* <!-- Footer --> */
 .come {
     background: #2e2f42;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
     padding: 100px 0;
 }
 
@@ -400,11 +376,10 @@ style {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
-    margin-bottom: 100px;
-    margin-right: 1020px;
+    width: 264px;
 }
 
 .come .plan-name{
     display: inline-block;
+    margin-bottom: 16px;
 }
